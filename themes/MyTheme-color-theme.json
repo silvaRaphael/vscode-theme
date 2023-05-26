@@ -102,7 +102,7 @@
     "editorBracketHighlight.foreground1": "#F8F8F2",
     "editorBracketHighlight.foreground2": "#FF79C6",
     "editorBracketHighlight.foreground3": "#8BE9FD",
-    "editorBracketHighlight.foreground4": "#50FA7B",
+    "editorBracketHighlight.foreground4": "#50f4fa",
     "editorBracketHighlight.foreground5": "#BD93F9",
     "editorBracketHighlight.foreground6": "#FFB86C",
     "editorBracketHighlight.unexpectedBracket.foreground": "#FF5555",
@@ -285,7 +285,27 @@
           "variable.other.object.property"
         ],
         "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          "keyword",
+          "keyword.control",
+          "keyword.control.new",
+          "keyword.operator.new",
+          "keyword.control.import.js",
+          "keyword.control.import.jsx",
+          "keyword.control.import.ts",
+          "keyword.control.import.tsx",
+          "keyword.control.from.js",
+          "keyword.control.from.jsx",
+          "keyword.control.from.ts",
+          "keyword.control.from.tsx",
+        ],
+        "settings": {
           "fontStyle": "italic bold",
+          "foreground": "#FF79C6",
         }
       },
       {
@@ -682,7 +702,7 @@
               "keyword.operator.function.infix"
           ],
           "settings": {
-              "foreground": "#50FA7B"
+              "foreground": "#50f4fa"
           }
       },
       {
@@ -707,7 +727,7 @@
               "meta.decorator variable.other.property"
           ],
           "settings": {
-              "foreground": "#50FA7B",
+              "foreground": "#50f4fa",
               "fontStyle": "italic"
           }
       },
@@ -717,30 +737,19 @@
               "meta.decorator variable.other.object"
           ],
           "settings": {
-              "foreground": "#50FA7B"
+              "foreground": "#50f4fa"
           }
       },
-      {
-          "name": "Keywords",
-          "scope": [
-              "keyword",
-              "punctuation.definition.keyword"
-          ],
-          "settings": {
-              "foreground": "#FF79C6",
-              "fontStyle": "italic"
-          }
-      },
-      {
-          "name": "Keyword \"new\"",
-          "scope": [
-              "keyword.control.new",
-              "keyword.operator.new",
-          ],
-          "settings": {
-              "fontStyle": "italic bold"
-          }
-      },
+    //   {
+    //       "name": "Keyword \"new\"",
+    //       "scope": [
+    //           "keyword.control.new",
+    //           "keyword.operator.new",
+    //       ],
+    //       "settings": {
+    //           "fontStyle": "italic bold"
+    //       }
+    //   },
       {
           "name": "Generic selectors (CSS/SCSS/Less/Stylus)",
           "scope": [
@@ -768,8 +777,8 @@
               "variable.other.predefined"
           ],
           "settings": {
-              "fontStyle": "",
-              "foreground": "#fff"
+              "fontStyle": "italic bold",
+              "foreground": "#f4f4f4dd"
           }
       },
       {
@@ -811,7 +820,8 @@
               "punctuation.separator.annotation"
           ],
           "settings": {
-              "foreground": "#FF79C6"
+              "foreground": "#FF79C6",
+              "fontStyle": "strikethrough"
           }
       },
       {
@@ -855,7 +865,8 @@
               "punctuation.definition.variable.makefile"
           ],
           "settings": {
-              "foreground": "#FF79C6"
+              "foreground": "#FF79C6",
+              "fontStyle": "strikethrough"
           }
       },
       {
@@ -1070,7 +1081,8 @@
               "variable.other.constant.tsx"
           ],
           "settings": {
-              "foreground": "#e6e6df"
+              "foreground": "#ffffff",
+              "fontStyle": "italic"
           }
       },
       {
