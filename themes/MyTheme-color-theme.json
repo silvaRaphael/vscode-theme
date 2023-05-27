@@ -816,7 +816,6 @@
           ],
           "settings": {
               "foreground": "#FF79C6",
-              "fontStyle": "strikethrough"
           }
       },
       {
@@ -861,7 +860,6 @@
           ],
           "settings": {
               "foreground": "#FF79C6",
-              "fontStyle": "strikethrough"
           }
       },
       {
