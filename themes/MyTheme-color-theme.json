@@ -222,7 +222,6 @@
           "keyword.control.loop.js",
           "keyword.control.loop.ts",
           "keyword.operator.expression.delete",
-          "keyword.operator.new",
           "keyword.operator.expression",
           "keyword.operator.cast",
           "keyword.operator.relational",
@@ -282,13 +281,9 @@
           "keyword.control.flow.js",
           "keyword.control.flow.ts",
           "keyword.control.flow.tsx",
-          "storage",
           "storage.type",
           "storage.modifier",
-          "keyword",
           "keyword.control",
-          "keyword.control.new",
-          "keyword.operator.new",
           "keyword.control.import.js",
           "keyword.control.import.jsx",
           "keyword.control.import.ts",
@@ -300,7 +295,7 @@
         ],
         "settings": {
           "fontStyle": "italic bold",
-          "foreground": "#FF79C6dd",
+          "foreground": "#FF79C6dd"
         }
       },
       {
@@ -591,8 +586,8 @@
               "wildcard.comment"
           ],
           "settings": {
-              "foreground": "#f4f4f48c",
-              "fontStyle": "italic bold"
+              "foreground": "#f4f4f4bb",
+              "fontStyle": "italic"
           }
       },
       {
@@ -735,16 +730,17 @@
               "foreground": "#50f4fa"
           }
       },
-    //   {
-    //       "name": "Keyword \"new\"",
-    //       "scope": [
-    //           "keyword.control.new",
-    //           "keyword.operator.new",
-    //       ],
-    //       "settings": {
-    //           "fontStyle": "italic bold"
-    //       }
-    //   },
+      {
+          "name": "Keyword \"new\"",
+          "scope": [
+              "keyword.control.new",
+              "keyword.operator.new",
+          ],
+          "settings": {
+              "fontStyle": "italic bold",
+              "foreground": "#FF79C6"
+          }
+      },
       {
           "name": "Generic selectors (CSS/SCSS/Less/Stylus)",
           "scope": [
@@ -946,15 +942,15 @@
               "foreground": "#FFB86C"
           }
       },
-      {
-          "name": "Modifiers",
-          "scope": [
-              "storage.modifier"
-          ],
-          "settings": {
-              "foreground": "#FF79C6"
-          }
-      },
+    //   {
+    //       "name": "Modifiers",
+    //       "scope": [
+    //           "storage.modifier"
+    //       ],
+    //       "settings": {
+    //           "foreground": "#FF79C6"
+    //       }
+    //   },
       {
           "name": "RegExp string",
           "scope": [
